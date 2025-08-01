@@ -3,4 +3,5 @@
 
 import sys
 import gallery_dl
+
 sys.exit(gallery_dl.main())

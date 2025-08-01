@@ -1,0 +1,14 @@
+{
+    "include": [
+        "gallery_dl", // 告诉 Pylance gallery_dl 目录是一个源代码根目录
+        "test" // 如果 test 目录也包含需要被分析的代码，也可以包含
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        ".git"
+    ],
+    "stubPath": "./typings", // 可选：存放类型存根文件的目录
+    "pythonVersion": "3.8", // 请根据您实际使用的 Python 版本修改
+    "pythonPlatform": "Windows" // 或 "Linux", "Darwin"
+}
